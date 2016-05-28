@@ -53,11 +53,7 @@ LIBCXXABI_INCLUDES := \
 LIBCXXABI_RTTI_FLAG := -frtti
 LIBCXXABI_CPPFLAGS := \
     -std=c++11 \
-    -fexceptions \
-    -Wall \
-    -Wextra \
-    -Wno-unused-function \
-    -Werror \
+    -fexceptions
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libunwind_llvm
